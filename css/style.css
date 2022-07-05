@@ -1,0 +1,23 @@
+body{
+  background: #3772FF;
+}
+
+/*Header*/
+.bg-left{
+  position: absolute;
+}
+
+.container{
+  position: sticky;
+}
+
+ul{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+
+  width: 50vw;
+  padding-top: 50px;
+}
+
+/* --------- */
