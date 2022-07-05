@@ -1,5 +1,5 @@
 body{
-  background: #3772FF;
+  background: #FFFFFF;
 }
 
 /*Header*/
@@ -19,5 +19,24 @@ ul{
   width: 50vw;
   padding-top: 50px;
 }
+/* --------- */
+/* header cadastro*/
+.bg-right{
+  position: absolute;
+  right: 0;
+}
 
 /* --------- */
+/* Header Home*/
+
+.icon-user{
+position: absolute;
+right: 50px;
+top: 35px;
+}
+/* --------- */
+
+main{
+
+  margin: 200px auto;
+}
