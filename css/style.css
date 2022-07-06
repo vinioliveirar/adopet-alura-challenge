@@ -40,3 +40,25 @@ main{
 
   margin: 200px auto;
 }
+
+
+/* --------- */
+/*Footer*/
+.container-footer{
+  background: #36D6AD;
+  
+  bottom: 0;
+  width: 100%;
+  height: 10vh;
+ 
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.copyright{
+  color: #FFFFFF;
+}
+/* --------- */
