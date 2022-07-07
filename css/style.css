@@ -124,3 +124,80 @@ a{
   color: #FFFFFF;
 }
 /* --------- */
+
+/* tela cadastro*/
+
+/*main*/
+
+.main-cadastro{
+  margin: 50px auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 80%;
+  color: #3772FF;
+}
+.main-cadastro section{
+  padding: 10px 0;
+}
+.paragrafo-cadastro{
+  font-size: 14px;
+  text-align: center;
+}
+.logo-azul{
+  width: 150px;
+}
+
+.form-cadastro{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  color: #737380;
+}
+.form-cadastro label{
+  margin: 10px 0;
+  font-size: 14px;
+}
+
+.input-padrao{
+  background: #F7F7F7;
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.15);
+  border-radius: 6px;
+
+  width: 312px;
+  height: 40px;
+
+  border: none;
+  text-align: center;
+}
+
+.input-padrao::-webkit-input-placeholder{
+  opacity: 70%;
+}
+
+.enviar-form{
+  width: 148px;
+  height: 40px;
+  margin: 25px 0;
+
+  background: #FC7071;
+  color: #FFFFFF;
+
+  border-radius: 6px; 
+  border: none;
+
+  font-family: 'Poppins', sans-serif;
+  transition: 0.2s;
+}
+.enviar-form:hover{
+  background: #FF9D9E;
+}
+/*background*/
+
+.ilustracao-2{
+  position: absolute;
+  left: 0;
+  bottom: 85px;
+  z-index: -1;
+}
