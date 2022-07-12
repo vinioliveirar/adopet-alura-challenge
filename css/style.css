@@ -251,7 +251,7 @@ a{
   width: 60%;
 
   color: #3772FF;
-  
+  margin-bottom: 16px;
 }
 
 
@@ -259,6 +259,47 @@ a{
   background: #F7F7F7;
 
   width: 360px;
+  margin-top: 16px;
+  padding: 24px;
+
+  display: flex;
+}
+
+.img-pet{
+  margin-right: 16px;
+}
+.content-pet{
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}
+.descricao-pet{
+  flex: 1;
+}
+
+.contato-pet p:nth-child(1){
+  font-size: 12px;
+}
+
+.contato-pet p:nth-child(2){
+  font-size: 10px;
+  display: flex;
+  align-items: center;
+  margin-top: 7px;
+  justify-content: space-between;
+  width: 80%;
+}
+
+.content-pet h2{
+  color: #3772FF;
+  font-weight: 600;
+  margin-bottom: 8px;
+  
+}
+
+.content-pet p{
+  line-height: 20px;
+  color:#737380 ;
 }
 
 
