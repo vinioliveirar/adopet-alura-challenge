@@ -129,7 +129,7 @@ a{
 
 /*main*/
 
-.main-cadastro{
+.main-forms{
   margin: 55px auto;
   padding: 10px;
   display: flex;
@@ -137,10 +137,10 @@ a{
   align-items: center;
   color: #3772FF;
 }
-.main-cadastro section{
+.main-forms section{
   padding: 5px 0;
 }
-.paragrafo-cadastro{
+.paragrafo-forms{
   font-size: 14px;
   text-align: center;
 }
@@ -207,6 +207,8 @@ a{
 .enviar-form:hover{
   background: #FF9D9E;
 }
+
+/*---------*/
 /*background*/
 
 .ilustracao-2{
@@ -215,3 +217,17 @@ a{
   bottom: 60px;
   z-index: -1;
 }
+
+/*---------*/
+
+/*main-login*/
+
+.reset-senha{
+  color: #FC7071;
+  font-size: 12px;
+  margin-top: 10px;
+  text-decoration: underline;
+}
+
+
+/*---------*/
