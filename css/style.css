@@ -99,6 +99,7 @@ a{
 }
 /* --------- */
 /*ilustração*/
+
 .ilustracao{
   display: flex;
   justify-content: center;
@@ -106,7 +107,7 @@ a{
 .ilustracao-1{
   position: absolute;
   
-  bottom: 50px;
+  bottom: 10vh;
   height: 270px;
   z-index: -1;
 }
@@ -239,16 +240,16 @@ a{
 /*---------*/
 
 /*Home*/
-.main-home{
-  margin: 80px auto 0;
+.main-home, .main-msg{
+  margin: 90px auto 0;
 
   display: flex;
   flex-direction: column;
   align-items: center;
 }
-.main-home h1{
+.main-home h1, .main-msg h1{
   text-align: center;
-  width: 60%;
+  width: 65%;
 
   color: #3772FF;
   margin-bottom: 16px;
@@ -302,6 +303,70 @@ a{
   color:#737380 ;
 }
 
+
+/*---------*/
+
+/*tela mensagem*/
+
+.content-form{
+  background: #F7F7F7;
+  width: 90%;
+ 
+  margin: 16px 0;
+  border-radius: 10px;
+  
+}
+.form-msg{
+  
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+
+  padding: 32px 16px;
+}
+
+.form-msg label{
+  line-height: 24px;
+  font-weight: 600;
+  
+  color: #3772FF;
+}
+
+.form-msg input{
+  margin-bottom: 16px;
+  width: 90%;
+  height: 40px;
+  padding:0 5px;
+
+  background: #FFFFFF;
+  mix-blend-mode: normal;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 6px;
+  border: none;
+}
+
+.input-msg::-webkit-input-placeholder{
+  color: #BCBCBC;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 24px;
+}
+
+.form-msg textarea{
+  background: #FFFFFF;
+  mix-blend-mode: normal;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 6px;
+  border: none;
+  width: 90%;
+}
+
+.btn-msg{
+  display: flex;
+  justify-content: center;
+}
 
 /*---------*/
 
